@@ -1,5 +1,5 @@
 '''
-• Breadth-irst search is used to calculate the shortest path for
+• Breadth-first search is used to calculate the shortest path for
 an unweighted graph.
 • Dijkstra’s algorithm is used to calculate the shortest path for
 a weighted graph.
