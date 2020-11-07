@@ -1,4 +1,4 @@
-capacity = 4
+capacity = 6
 items = ['water', 'book', 'food', 'jacket', 'camera']
 weights = [3, 1, 2, 2, 1]
 values = [10, 3, 9, 5, 6]
