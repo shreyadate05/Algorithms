@@ -1,5 +1,5 @@
-s1 = "fort"
-s2 = "fosh"
+s1 = "blue"
+s2 = "clues"
 dp = [[0 for j in range(len(s2))] for i in range(len(s1))]
 
 def get_max(dp):

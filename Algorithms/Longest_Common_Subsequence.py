@@ -1,3 +1,16 @@
+'''
+• Dynamic programming is useful when you’re trying to optimize
+something given a constraint.
+• You can use dynamic programming when the problem can be
+broken into discrete subproblems.
+• Every dynamic-programming solution involves a grid.
+• he values in the cells are usually what you’re trying to optimize.
+• Each cell is a subproblem, so think about how you can divide your
+problem into subproblems.
+• here’s no single formula for calculating a dynamic-programming
+solution.
+'''
+
 s1 = "abcde"
 s2 = "abc"
 dp = [[0 for j in range(len(s2))] for i in range(len(s1))]
