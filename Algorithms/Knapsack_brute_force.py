@@ -1,3 +1,8 @@
+'''
+Time Complexity: O(2^n) where n = number of items
+Space Complexity: O(n) coz we have n recursion calls (2^n + 2^n -1 = 31 calls)
+'''
+
 def knapsack(values, weights, capacity, i):
     if capacity <= 0 or i >= len(weights):
         return 0
