@@ -23,6 +23,4 @@ def canPartition(arr):
     return dp[len(arr)-1][s]
 
 if __name__ == "__main__":
-    ans = canPartition([1,2,3,4])
-    print(ans)
-    # [[-1, -1, -1, -1, -1, 1], [-1, -1, -1, -1, 1, -1], [-1, -1, 0, -1, 1, -1], [-1, 0, 0, -1, 1, -1]]
+    print(canPartition([1,2,3,4]))
